@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="centered">
+
+        <div class="intro_img">
+            <img src="./weather_icons/cloudy-day-2.svg" alt="Icon">
+        </div>
+        <h2 class="heading">Discover the Weather in Your City</h2>
+        <p id="descrip">Get to know your weather conditions </p>
+
+        <div class="input_part">
+            <p class="warning"></p>
+            <input type="text" name="weather" id="weather">
+            <div class="separator"></div>
+            <input type="button" value="Get Device Location" id="locate_btn">
+        </div>
+    </div>
+    
+    <div class="detailed_tab">
+        <h2 class="heading section">Detailed Report</h2>
+        <div class="main_sec">
+            <div class="left_img">
+                <img src="" alt="" class="weather_img">
+            </div>
+            <div class="right_desc">
+                <div class="aligned">
+                    <h3 class="sub_head_country">Country Name </h3>
+                    <p class="country_name wea"></p>
+                </div>
+                <div class="aligned">
+                    <h3 class="sub_head_country">Feels Like </h3>
+                    <p class="weather_now wea"></p>
+                </div>
+                <div class="aligned">
+                    <h3 class="sub_head_country">Temperature </h3>
+                    <p class="temp wea"></p>
+                </div>
+                <div class="aligned">
+                    <h3 class="sub_head_country">Pressure </h3>
+                    <p class="pressure wea"></p>
+                </div>
+                <div class="aligned">
+                    <h3 class="sub_head_country">Humidity </h3>
+                    <p class="humidity wea"></p>
+                </div>
+                <div class="aligned">
+                    <h3 class="sub_head_country">Wind Speed </h3>
+                    <p class="wind wea"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
