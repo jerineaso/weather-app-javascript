@@ -11,7 +11,7 @@ let detailed_tab = document.querySelector(".detailed_tab")
 let weather_img = document.querySelector(".weather_img")
 
 
-let API = "8dbc1e38c1168ee680482073900931d7"
+let API = ""
 
 locate_btn.addEventListener('click',(e)=>{
     e.preventDefault();
