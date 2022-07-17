@@ -132,3 +132,29 @@ body{
     display: inline-block;
     margin: 10px 25px;
 }
+
+@media screen and (max-width :700px){
+    .centered {
+        width: 90%;
+    }
+
+    #weather {
+        width: 100%;
+    }
+
+    #locate_btn {
+        width: 100%;
+    }
+
+    .detailed_tab {
+        width: 90%;
+    }
+
+    .main_sec{
+        flex-direction: column;
+    }
+
+    .aligned{
+        margin: 10px; 
+    }
+}
